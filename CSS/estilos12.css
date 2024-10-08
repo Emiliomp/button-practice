@@ -1,0 +1,51 @@
+img{
+    width: 20px;
+    
+}
+
+
+#ins{
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight:bold;
+   background: linear-gradient(to top left,purple, orange);
+   width: fit-content;
+   border-radius: 7px;
+}
+
+a:hover{
+    opacity:0.85 ;
+    scale: 1.08;
+}
+a{
+    margin-top: 5px;
+    padding: 5px;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    text-decoration: none;
+    width: fit-content;
+    transition: 300ms;
+}
+#chess{
+    
+    
+    color: black;
+    background-color: rgb(3, 75, 3);
+    width: fit-content;
+    border-radius: 7px;
+    font-weight: bold;
+    color: rgb(39, 119, 39);
+}
+#dnd{
+    color: black;
+    background: linear-gradient(rgb(194, 3, 3), rgb(77, 0, 0));
+    border-radius: 7px;
+}
+#chess:hover{
+    color: rgb(2, 167, 2);
+    opacity: 1;
+}
+
